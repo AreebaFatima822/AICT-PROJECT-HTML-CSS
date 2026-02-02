@@ -1,0 +1,154 @@
+/* ---------------- General Page Styling ---------------- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5; /* light pink background */
+    color: #2c2c2c;
+}
+
+/* ---------------- Header ---------------- */
+header {
+    background: linear-gradient(to right, #c8facc, #f8b7c8); /* soft green + pink gradient */
+    color: #2c2c2c;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 4px solid #7fbf9b;
+}
+
+header img {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* ---------------- Navigation Bar ---------------- */
+nav {
+    background-color: #7fbf9b; /* soft green */
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 22px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #f497b6; /* soft pink hover */
+}
+
+/* ---------------- Sections ---------------- */
+section {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 6px solid #7fbf9b; /* green accent */
+}
+
+h2 {
+    color: #c94f7c; /* pink headings */
+}
+
+/* ---------------- Technology Cards ---------------- */
+.tech-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tech-box {
+    background-color: #fdf1f6; /* light pink card */
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #b6e2c3; /* green border */
+}
+
+.tech-box img {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* ---------------- Table Styling ---------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #d8a7b9; /* soft border */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f497b6; /* pink header */
+    color: white;
+}
+
+/* ---------------- Form Styling ---------------- */
+form {
+    max-width: 420px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 9px;
+    margin: 8px 0 15px;
+    border: 1px solid #d8a7b9; /* pinkish border */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #7fbf9b; /* green button */
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5aa37c; /* darker green hover */
+}
+
+/* ---------------- Home Page Buttons ---------------- */
+.home-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-buttons .btn {
+    background-color: #7fbf9b; /* green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-buttons .btn:hover {
+    background-color: #f497b6; /* pink hover */
+}
+
+/* ---------------- Footer ---------------- */
+footer {
+    background-color: #c8facc; /* light green footer */
+    color: #2c2c2c;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+}
+
